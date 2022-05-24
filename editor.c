@@ -14,11 +14,6 @@ char h[80];
 char i[80];
 char j[80];
 char k[80];
-double m;
-char l=isdigit(m);
-clock_t start_t,end_t;
-double total_t;
-start_t=clock();
 printf("t=txt h=header\n");
 a=getch();
 printf("Selected format: %c\n",a);
@@ -146,7 +141,5 @@ continue;
 }
 }
 }
-end_t=clock();
-printf("%ld\n",end_t);
-  return 0;
+return 0;
 }
